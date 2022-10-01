@@ -1,0 +1,2 @@
+# ng-kitsune
+Angular Boilerplate
