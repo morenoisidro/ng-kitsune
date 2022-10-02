@@ -1,0 +1,24 @@
+@use '../colors' as color;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(45deg, #{color.$tangerine} 0%, #{color.$sinopia} 35%, #{color.$rufous} 100%);
+
+    .header {
+        background: -webkit-linear-gradient(45deg, #{color.$unbleached-silk} 0%, #{color.$coral} 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 68px;
+    }
+    .coming-soon {
+        font-size: 20px;
+        color: color.$black-bean;
+    }
+}
