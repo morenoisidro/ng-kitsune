@@ -1,4 +1,6 @@
-# NgKitsune
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+# NgKitsune - Angular App Boiletplate with steroids
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
